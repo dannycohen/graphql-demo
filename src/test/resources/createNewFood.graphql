@@ -1,0 +1,6 @@
+mutation {
+    saveFood(food: { name: "Pasta" }) {
+        id
+        isGood
+    }
+}
